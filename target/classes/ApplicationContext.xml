@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="address" class="com.sunglowsys.domain.Address">
+        <property name="id" value="1"/>
+        <property name="addressLine1" value="Khurrampur, post - kantaur , kasganj (207123)up"/>
+        <property name="addressLine2" value="Mohanpura, post - kantaur , kasganj (207123)up"/>
+        <property name="village" value="Khurampur"/>
+        <property name="post" value="Kantaur"/>
+        <property name="district" value="Kasganj"/>
+        <property name="state" value="Uttar pradesh"/>
+        <property name="country" value="India"/>
+        <property name="zipCode" value="57578i"/>
+
+
+    </bean>
+
+</beans>
